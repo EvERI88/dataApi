@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.tab {
+}
+.arrow {
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #6e18c0;
+  border-right: 3px solid #6e18c0;
+  margin-right: 10px;
+}
+.triangle-right {
+  transform: rotate(45deg);
+}
+.triangle-down {
+  transform: rotate(135deg);
+}
